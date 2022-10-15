@@ -1,14 +1,14 @@
-## CVE-2021-46422 RCE
+## CVE-2022-26134_RCE
 
 ## 安装
 
 ```
-git clone https://github.com/yigexioabai/CVE-2021-46422-RCE.git
+git clone https://github.com/yigexioabai/CVE-2022-26134-cve.git
 cd CVE-2021-46422 RCE
 pip3 install -r requirements.txt
 
 
-把CVE-2021-46422 RCE放到pocsuite3\pocs目录下
+把CVE-2022-26134 RCE放到pocsuite3\pocs目录下
 cd pocs
 ```
 
@@ -17,13 +17,13 @@ cd pocs
 单个url:
 
 ```
-pocsuite -r CVE-2021-46422 RCE.py -u url
+pocsuite -r CVE-2022-26134_RCE.py -u url
 ```
 
 多个url:
 
 ```
-pocsuite -r CVE-2021-46422 RCE.py -f url.txt(url在的文件) --verify
+pocsuite -r CVE-2022-26134_RCE.py -f url.txt(url在的文件) --verify
 ```
 
 
