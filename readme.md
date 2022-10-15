@@ -3,12 +3,12 @@
 ## 安装
 
 ```
-git clone https://github.com/yigexioabai/CVE-2022-26134-cve.git
-cd CVE-2021-46422 RCE
+git clone https://github.com/yigexioabai/CVE-2022-26134-cve1.git
+cd CVE-2022-26134-cve1
 pip3 install -r requirements.txt
 
 
-把CVE-2022-26134 RCE放到pocsuite3\pocs目录下
+把CVE-2022-26134_RCE.py放到pocsuite3\pocs目录下
 cd pocs
 ```
 
